@@ -8,6 +8,10 @@ var app = require('../app');
 var debug = require('debug')('inmueblesap:server');
 var http = require('http');
 
+require('dotenv').config();
+//Importamos configuraciones bdd
+require('../config/db');
+
 /**
  * Get port from environment and store in Express.
  */
