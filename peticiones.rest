@@ -11,19 +11,19 @@ Content-Type: application/json
     "extension": 5,
     "numero_de_habitacones": 4,
     "alquilado": true,
-    "nombre_propietario": "Alejandro",
+    "nombre_propietario": "Paco",
     "mail_de_contacto": "ejemplo@ejemplo.es"
 }
 
 ###
-PUT http://localhost:3000/api/inmuebles/646a0c17b77528f5df8db727
+PUT http://localhost:3000/api/inmuebles/646a220882f21b4d65d1b521
 Content-Type: application/json
 
 {
     "letra": "Y",
-    "nombre_propietario": "Marcos",
+    "nombre_propietario": "Paquito",
     "alquilado": true
 }
 
 ###
-DELETE  http://localhost:3000/api/inmuebles/646a0ac4b2cb64383cf12413
+DELETE  http://localhost:3000/api/inmuebles/646a220882f21b4d65d1b521
