@@ -1,0 +1,16 @@
+
+GET http://localhost:3000/api/inmuebles
+
+###
+POST http://localhost:3000/api/inmuebles
+Content-Type: application/json
+
+{
+    "piso": "b 70",
+    "letra": "A",
+    "extension": 5,
+    "numero_de_habitacones": 4,
+    "alquilado": true,
+    "nombre_propietario": "Ramon",
+    "mail_de_contacto": "ejemplo@ejemplo.es"
+}
