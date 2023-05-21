@@ -6,11 +6,24 @@ POST http://localhost:3000/api/inmuebles
 Content-Type: application/json
 
 {
-    "piso": "b 70",
+    "piso": "ssb 70",
     "letra": "A",
     "extension": 5,
     "numero_de_habitacones": 4,
     "alquilado": true,
-    "nombre_propietario": "Ramon",
+    "nombre_propietario": "Alejandro",
     "mail_de_contacto": "ejemplo@ejemplo.es"
 }
+
+###
+PUT http://localhost:3000/api/inmuebles/646a0c17b77528f5df8db727
+Content-Type: application/json
+
+{
+    "letra": "Y",
+    "nombre_propietario": "Marcos",
+    "alquilado": true
+}
+
+###
+DELETE  http://localhost:3000/api/inmuebles/646a0ac4b2cb64383cf12413
